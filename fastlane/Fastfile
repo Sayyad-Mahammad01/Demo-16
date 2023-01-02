@@ -43,6 +43,7 @@ lane :distributeReleaseApk do
   firebase_app_distribution(
           app: "1:783458988956:android:f55c2fcbd20e8db0134e59",
 # this is app id we can collect it from firebase → Project overview → Project #Settings →General
+          firebase_cli_token:"1//0gGgFtLBXlZbaCgYIARAAGBASNwF-L9Ir213kJArDFcfs-pzu7NYHJiWGNxQKAQo0kj9_3p0WZmQv1jlDV0rZH8F389gQAFpj6_U"
           release_notes_file: "fastlane/release-notes.txt",
 #create release-notes.txt file
           groups_file: "fastlane/group.txt"
